@@ -1,0 +1,75 @@
+body {
+    background-image: url('pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    }
+    .container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+    color: red;
+    font-size: 50px; 
+    font-weight: bold; 
+    text-align: center;
+    margin-bottom: 20px; 
+}
+h1{
+    color: darkred;
+}
+label{
+    font-size: 20px;
+}
+input{
+    font-size: 20px;
+}
+input:hover{
+    font-size: 20px;
+    background-color: grey;
+}
+input:focus{
+    background-color: gray;
+}
+select{
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+}
+select:hover{
+    font-size: 15px;
+    background-color: gray;
+}
+button{
+    background-color: rgb(208, 147, 152);
+    border: 5px solid black;
+    padding: 5px;
+    width: 80%;
+}
+p{
+    color: rgb(77, 4, 9);
+    font-size: 20px
+}
+a {
+    color: rgb(230, 95, 95);
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    color: darkred;
+}
